@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Current Queue</title>
-    <link rel="stylesheet" href="display_queue.css">
+    <link rel="stylesheet" href="/display_queue.css">
 </head>
 <body>
     <header>
         <span id="title">Current Queue</span>
     </header>
     <div id="container">
-        <div id="queuenumber">0</div>
+        <span id="queuenumber">0</span>
     </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/display_queue.js"></script>
 </body>
 </html>

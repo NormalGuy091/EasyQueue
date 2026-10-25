@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Queue Operator</title>
-    <link rel="stylesheet" href="operator.css">
+    <link rel="stylesheet" href="/operator.css">
 </head>
 <body>
     <header>
@@ -13,8 +13,11 @@
     <div id="container">
         <div id="logged-as">Logged as <span id="logged-as-username">Desk 1</span></div>
         <div id="button-control-container">
-            <button id="next-btn">Next</button>
+            <button id="next-btn" onclick="next()">Next</button>
         </div>
     </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/operator.js"></script>
 </body>
 </html>
