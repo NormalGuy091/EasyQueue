@@ -11,7 +11,7 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+/* General Things */
 header {
     background-color: aquamarine;
     padding: 10px;
@@ -25,6 +25,8 @@ header {
     color: whitesmoke;
     text-shadow: 1px 1px antiquewhite;
 }
+
+/* END */
 
 #container {
     background-color: whitesmoke;
