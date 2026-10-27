@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* General Things */
+header {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#title {
+    font-size: 1.5em;
+    color: whitesmoke;
+    text-shadow: 1px 1px antiquewhite;
+}
+
+/* END */
+
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+    width: 75%;
+    margin-top: 13%;
+    border: none;
+    border-radius: 1em;
+}
+/* form style */
+#form input {
+    padding: 1em;
+    border: none;
+    border-radius: 67px;
+    outline: none;
+    width: 50%;
+    height: 5%;
+    font-size:0.9em;
+}
+
+#form button {
+    padding: 1em;
+    border: 5px solid aquamarine;
+    outline: none;
+    border-radius: 67px;
+    background-color:aquamarine;
+}
+
+#form button:hover {
+    background-color: white;
+}
+
+/* queue number style */
+
+#queuenumber {
+    font-size: 7em;
+}
+
+#showpassword-container {
+    display: flex;
+    flex-direction: row;
+}
+#show-password {
+    padding: 10px;
+}
+
+#form input[type='checkbox'] {
+    padding: 0;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+}

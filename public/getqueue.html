@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Queue</title>
+    <link rel="stylesheet" href="/getqueue.css">
+</head>
+<body>
+     <header>
+        <span id="title">Get Your Queue Number</span>
+    </header>
+
+    <div id="form" class="container" hidden>
+            <input id="password-input" type="password" placeholder="Please input your password for the queue" autocorrect="off">
+            <div id="showpassword-container">
+                   <label for="showpassword">Show Password</label>
+                   <input type="checkbox" id="show-password" name="showpassword" onchange="showPassword()">
+            </div>
+             <button onclick="getQueue()">Get Queue</button>
+    </div>
+       
+    </div>
+    <div id="queue-number" class="container" style="display: none;">
+        <span>Your queue number is:</span>
+        <span id="queuenumber">0</span>
+        <button onclick="resetQueue()">Reset Queue</button>
+    </div>
+
+    <script src="/getqueue.js"></script>
+</body>
+</html>

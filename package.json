@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node src/server.js"
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "dotenv": "^18.0.9",
     "expressjs": "^1.0.1",
     "mysql": "^2.18.1",
+    "qrcode": "^1.5.4",
     "socket.io": "^4.8.4"
   },
   "devDependencies": {
